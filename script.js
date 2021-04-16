@@ -26,7 +26,7 @@ Output: True
 
 let testArrays = ["PPALLP", "PPALLL", "PAPALL", "PLPALL"];
 
-function checkString() {
+function checkAttendance() {
 
      let myArrayForAs = [];
 
@@ -43,7 +43,7 @@ function checkString() {
           if(myArrayForAs.length >= 2) {
                console.log("2 Absences: ", "FALSE");
                myArrayForAs.length = 0;
-          } else if(array.includes("LLL")) {
+          } else if(testArray.includes("LLL")) {
                console.log("3 Lates: ", "FALSE")
                myArrayForAs.length = 0;
           } else {
@@ -53,4 +53,4 @@ function checkString() {
      });
 }
 
-checkString();
+checkAttendance();
